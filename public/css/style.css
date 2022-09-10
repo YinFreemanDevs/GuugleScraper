@@ -1,0 +1,56 @@
+
+* {  box-sizing: border-box;
+}
+
+body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+
+.column1  {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color:#becdfe;
+}
+
+.column3 {
+  float: right;
+  width: 20%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+ 
+}
+
+.column2 {
+    text-align: center;
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  
+}
+
+img {
+    position: absolute;
+    top:  50px; 
+    left: 50px;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#text{
+    width: 100%;
+}
+
+#button {
+    margin-top: 5%;
+    width: 20%;
+
+
+}
+
